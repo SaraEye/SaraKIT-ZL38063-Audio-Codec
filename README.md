@@ -109,6 +109,3 @@ This project builds upon the work done by the Linux kernel community and Microse
 
 For questions or support regarding the enhanced audio codec, please open an issue in this repository.
 
----
-
-Remember to replace placeholder texts like `[repository URL]`, `[repository directory]`, and specific compilation instructions with actual data relevant to your project.
