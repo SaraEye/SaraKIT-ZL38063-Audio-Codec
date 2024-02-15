@@ -84,9 +84,6 @@ sudo reboot
 
 **Recommendation:** For use with SaraKIT, we recommend running the latest 64-bit version of the Raspberry Pi OS (Bullseye) - currently version 5.15.84, or (Bookworm) but at a minimum of version 6.1.74-v8+. We have been unable to compile the driver on versions lower (Bookworm) than this at the current time.
 
----
-
-This revised section provides clear instructions for users who might want to compile and install the custom audio codec themselves while highlighting that for most users, this step is unnecessary thanks to the pre-compiled codec files provided for known Raspberry Pi 64-bit versions.
 
 ## Usage
 
