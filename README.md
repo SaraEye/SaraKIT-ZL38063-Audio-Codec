@@ -67,10 +67,11 @@ Prepare the module build system and compile the codec module:
 sudo make modules_prepare
 sudo make M=sound/soc/codecs
 ```
+(if you get any compilation errors, use Module8.symvers as Module.symvers, not Module7l.symvers)
 
 ### Installing the Module
 
-Copy the `snd-soc-zl38060.ko` file to the appropriate directory and update module dependencies:
+Copy the `snd-soc-zl38060.ko` (sudo cp /home/pi/linux/sound/soc/codecs/snd-soc-zl38060.ko /usr/lib/modules/6.1.21-v8+/SaraKIT/) file to the appropriate directory and update module dependencies:
 
 ```sh
 sudo depmod -a
